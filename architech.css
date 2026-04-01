@@ -84,7 +84,7 @@ main{
   width: 100%;
   max-width: 950px;
   margin: 0 auto;
-  padding: 40px;
+  padding: 40px 0px;
 }
 /* section part design  */
 
@@ -176,9 +176,12 @@ main{
   gap: 140px;
   margin: 60px 40px;
   max-width: 1240px;
+  padding: 0 40px;
 }
+.our-icon img{
+  filter: grayscale(100%);
 
-
+}
 
 
 
@@ -229,11 +232,12 @@ main{
   padding: 40px 0px 0px 0px ;
  
 }
-.fact-number{
 
-}
 .fact-name{
   text-align: center;
+}
+.our-icon{
+  flex-direction: column;
 }
 
 }
